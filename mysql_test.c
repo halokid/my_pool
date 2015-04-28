@@ -10,7 +10,7 @@ MYSQL_ROW   row;
 //initialize   MYSQL   structure
 mysql_init(&mysql);
 //connect   to   database
-mysql_real_connect(&mysql,"localhost","root","456123ooxx","mysql",0,NULL,0);
+mysql_real_connect(&mysql,"localhost","root","password","mysql",0,NULL,0);
 
 //execute   query
 
